@@ -1,0 +1,7 @@
+.node {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  outline: 1px solid rgba(144, 175, 175, 0.75);
+  display: inline-block;
+}
