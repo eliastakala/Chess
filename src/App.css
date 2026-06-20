@@ -1,7 +1,15 @@
-.node {
-  width: 100px;
-  height: 100px;
-  background-color: burlywood;
-  outline: 1px solid rgba(144, 175, 175, 0.75);
-  display: inline-block;
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 480px;
+  border: 2px solid #333;
 }
+.square {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.light { background: #f0d9b5; }
+.dark  { background: #b58863; }
